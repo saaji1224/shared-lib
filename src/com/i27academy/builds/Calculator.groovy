@@ -1,7 +1,9 @@
 package com.i27academy.builds;
 class Calculator {
     def jenkins
-    this.jenkins = jenkins
+    Calculator(jenkins) {
+        this.jenkins = jenkins
+    }
     // addition 
     def add(firstNumber, secondNumber){
         // logic
